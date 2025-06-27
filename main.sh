@@ -6,10 +6,10 @@ total_core=20
 #===get config file===
 #you need to set parameters according your requirements
 singularity exec image/BulkRNA.sif python script/config.py \
---raw_dir /home/ug1754/project/BulkRNA/v1.0/rawdata \
---work_dir /home/ug1754/project/BulkRNA/v1.0 \
---sample_info /home/ug1754/project/BulkRNA/v1.0/samples.txt \
---contrasts /home/ug1754/project/BulkRNA/v1.0/contrasts.txt \
+--raw_dir path/BulkRNA_pipeline/rawdata \
+--work_dir path/BulkRNA_pipeline \
+--sample_info path/BulkRNA_pipeline/samples.txt \
+--contrasts path/BulkRNA_pipeline/contrasts.txt \
 --genome_index_thread 2 \
 --qc_thread 2 \
 --filter_thread 2 \

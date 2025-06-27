@@ -2,7 +2,6 @@
 - 📌 singularity=3.11.4
 - 🎆 python=3.13.5
 - 🎉 R=4.4.3
-- 📄 license: GPL3.0
 
 # Description
 * This is a bulkRNA-seq pipeline base on [snakemake](https://snakemake.readthedocs.io/en/stable/) workflow that able to complete primary analysis.

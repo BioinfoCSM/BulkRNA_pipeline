@@ -50,4 +50,11 @@ less snakemake.log
 #Tips:you can view the information screenshot below after all of tasks completed
 ```
 ![1751007007795](https://github.com/user-attachments/assets/b411912b-ad13-4ff2-a747-5c4f0fdd0db3)
+# Info
+* Author:BioinfoCSM(Siming Cheng)
+* Email:simoncheng158@gmail.com
+# Repository status statistics
+![](https://github-readme-stats.vercel.app/api?username=BioinfoCSM&show_icons=true&theme=transparent)
+# Homepage traffic statistics
+![Visitor_Count](https://profile-counter.glitch.me/BioinfoCSM.com/count.svg)
 

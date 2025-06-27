@@ -11,7 +11,7 @@
 * If you use pipeline in your paper don't forget citing the URL of this repository,thanks!<br>
 # Graph of jobs
 ![pipeline](pipeline.png)
-# Usage
+# Preparation
 ## Clone project
 ```shell
 git clone https://github.com/BioinfoCSM/BulkRNA_pipeline.git

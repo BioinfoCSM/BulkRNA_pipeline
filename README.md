@@ -53,8 +53,5 @@ less snakemake.log
 # Info
 * Author:BioinfoCSM(Siming Cheng)
 * Email:simoncheng158@gmail.com
-# Repository status statistics
-![](https://github-readme-stats.vercel.app/api?username=BioinfoCSM&show_icons=true&theme=transparent)
-# Homepage traffic statistics
-![Visitor_Count](https://profile-counter.glitch.me/BioinfoCSM.com/count.svg)
+
 

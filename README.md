@@ -22,8 +22,8 @@ cd BulkRNA_pipeline
 ```shell
 #copy your reference genome fasta and gtf annotation file to BulkRNA_pipeline/ref and rename genome.fa/genes.gtf separately
 mkdir ref
-cp path/you_reference.fa ref/genome.fa
-cp path/you_annotation.gtf ref/genes.gtf
+cp path/your_reference.fa ref/genome.fa
+cp path/your_annotation.gtf ref/genes.gtf
 #pull a singularity container to BulkRNA_pipeline/image
 mkdir image
 cd image
@@ -33,7 +33,7 @@ singularity pull --arch amd64 library://bioinfocsm/share/bulkrna:sha256.5d3b05d0
 cd ../
 #replace example rawdata/sample_name.fastq.gz with your project`s fastq file
 rm rawdata/*
-cp path/youfastq.fastq.gz rawdata/
+cp path/your_fastq.fastq.gz rawdata/
 #prepare samples.txt and contrasts.txt
 samples.txt:group_name\tsample_name
 contrasts.txt:case_name\tcontrol_name

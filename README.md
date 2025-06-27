@@ -1,8 +1,8 @@
 # Environment
 - 📮 System=Ubuntu 22.04.5 LTS
 - 📦 Snakemake=7.32.3
-- 📌 singularity=3.11.4
-- 🎆 python=3.13.5
+- 📌 Singularity=3.11.4
+- 🎆 Python=3.13.5
 - 🎉 R=4.4.3
 ***
 # Description
@@ -12,7 +12,7 @@
 # Graph of jobs
 ![pipeline](pipeline.png)
 # Preparation
-## Clone project
+## Clone
 ```shell
 git clone https://github.com/BioinfoCSM/BulkRNA_pipeline.git
 cd BulkRNA_pipeline
@@ -41,11 +41,12 @@ contrasts.txt:case_name\tcontrol_name
 ```
 # Usage
 ## Change parameter
-* `vi main.sh`
-* change config.py command-line argument according your project requirement,write and quit
+`vi main.sh`
+* Firstly:set the total core for this pipeline
+* Secondly:change config.py command-line argument according your project requirement,write and quit
 ## Check the pipeline by dry run
 ```shell
-snakemake --dry run -s Snakefile
+snakemake --dry-run -s Snakefile
 ```
 ## Run the main program
 ```shell

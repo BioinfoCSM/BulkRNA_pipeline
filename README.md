@@ -54,7 +54,7 @@ nohup sh main.sh 1>main.log 2>&1 &
 ## Check the log file when tasks completed
 ```shell
 cat main.log
-#Tips:you can view the information screenshot below after all of tasks completed
+#Tips:you can view the information below after all of tasks completed
 ```
 ```shell
 start at Fri Jun 27 16:48:24 CST 2025

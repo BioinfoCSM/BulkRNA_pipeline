@@ -1,8 +1,10 @@
+# Environment
+- 📮 System=Ubuntu 22.04.5 LTS
 - 📦 Snakemake=7.32.3
 - 📌 singularity=3.11.4
 - 🎆 python=3.13.5
 - 🎉 R=4.4.3
-
+***
 # Description
 * This is a bulkRNA-seq pipeline base on [snakemake](https://snakemake.readthedocs.io/en/stable/) workflow that able to complete primary analysis.
 * [Singularity](https://sylabs.io/singularity/) is supported in this pipeline.
@@ -47,14 +49,20 @@ snakemake --dry run -s Snakefile
 ```
 ## Run the main program
 ```shell
-nohup sh main.sh &
+nohup sh main.sh 1>main.log 2>&1 &
 ```
 ## Check the log file when tasks completed
 ```shell
-less snakemake.log
+cat main.log
 #Tips:you can view the information screenshot below after all of tasks completed
 ```
-![1751007007795](https://github.com/user-attachments/assets/b411912b-ad13-4ff2-a747-5c4f0fdd0db3)
+```shell
+start at Fri Jun 27 16:48:24 CST 2025
+config file completed!
+check your file and running snakemake!
+complete at Fri Jun 27 16:49:00 CST 2025
+```
+***
 # Info
 * Author:BioinfoCSM(Siming Cheng)
 * Email:simoncheng158@gmail.com

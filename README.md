@@ -43,7 +43,7 @@ contrasts.txt:case_name\tcontrol_name
 ## Change parameter
 `vi main.sh`
 * Firstly:set the total core for this pipeline
-* Secondly:change config.py command-line argument according your project requirement,write and quit
+* Secondly:change script/config.py command-line argument according your project requirement,write and quit.view help document by `singularity exec image/BulkRNA.sif python script/config.py -h`
 ## Check the pipeline by dry run
 ```shell
 snakemake --dry-run -s Snakefile

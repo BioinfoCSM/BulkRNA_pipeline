@@ -34,7 +34,7 @@ cd ../
 #replace example rawdata/sample_name.fastq.gz with your project`s fastq file
 rm rawdata/*
 cp path/your_fastq.fastq.gz rawdata/
-#prepare samples.txt and contrasts.txt
+#get samples.txt and contrasts.txt
 samples.txt:group_name\tsample_name
 contrasts.txt:case_name\tcontrol_name
 #Tips:\t represent tab separate
@@ -65,7 +65,7 @@ complete at Fri Jun 27 16:49:00 CST 2025
 ```
 ***
 # Info
-* Author:BioinfoCSM(Siming Cheng)
+* Author:BioinfoCSM(SiMing Cheng)
 * Email:simoncheng158@gmail.com
 
 

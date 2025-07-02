@@ -6,7 +6,7 @@
 - 🎉 R=4.4.3
 ***
 # Description
-* This is a bulkRNA-seq pipeline base on [snakemake](https://snakemake.readthedocs.io/en/stable/) workflow that able to complete primary analysis.
+* A bulkRNA-seq pipeline base on [snakemake](https://snakemake.readthedocs.io/en/stable/) workflow that able to complete primary analysis.
 * [Singularity](https://sylabs.io/singularity/) is supported in this pipeline.
 * If you use pipeline in your paper don't forget citing the URL of this repository,thanks!<br>
 # Graph of jobs
